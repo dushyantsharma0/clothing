@@ -25,12 +25,22 @@ export default () => {
   ]
   return (
    <>
-   <h1 id='women' className=' underline text-[#5f4747] ff1 text-3xl mb-7 font-[600] ml-[200px]'>Deals of the Day</h1>
+   <h1 id='women' className=' text-center underline text-[#5f4747] ff1 text-3xl mb-7 font-[600] '>Deals of the Day</h1>
     <Swiper
       // install Swiper modules
       modules={[Navigation, Pagination, Scrollbar, A11y]}
       spaceBetween={50}
-      slidesPerView={4}
+      breakpoints={{
+        768: {
+          slidesPerView: 2
+        },
+        1024: {
+          slidesPerView: 3
+        },
+        1280:{
+          slidesPerView: 4
+        }
+      }}
       navigation
       
       loop

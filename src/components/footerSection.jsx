@@ -13,7 +13,7 @@ const FooterSection = () => {
   return (
   <>
   <div className='bg-[#F1FFFF]'>
-  <div className='  px-32 justify-between flex '>
+  <div className='  md:px-12 justify-between flex '>
     {
         text.map((item, index) => {
             return (
@@ -22,11 +22,11 @@ const FooterSection = () => {
                         item.name.map((resp, index) => {
                             if (index === 0) {
                                 return (
-                                    <h1 key={index} className='  text-#474545 font-bold'>{resp}</h1>
+                                    <h1 key={index} className=' md:text-xl text-[10px]  text-#474545 font-bold'>{resp}</h1>
                                 )
                             }
                             return (
-                                <h1  key={index} className='text-xs my-2'>{resp}</h1>
+                                <h1  key={index} className=' md:text-xs text-[9px] my-2'>{resp}</h1>
                             )
                         })
                     }

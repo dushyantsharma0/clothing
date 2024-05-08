@@ -60,8 +60,8 @@ const Header = () => {
     {
       loader?<> <div className=' z-30  w-full fixed'>
       <div className=' pr-12 justify-between bg-[#00B0B5] w-full h-[4rem] flex items-center'>
-        <h1 className='mytext'>SantaBrothers</h1>
-      <div className= '  uppercase flex gap-12 text-white font-[700] ml-10'>
+        <h1 className='mytext text-xl ml-[10px] md:mytext'>SantaBrothers</h1>
+      <div className= ' hidden  uppercase md:hidden   lg:flex lg:gap-5 xl:gap-12 text-white font-[700] ml-10'>
       <h1 className='hover1'><a href="#women">Women</a></h1>
         <h1 className='hover1'> <a href="#man"> Mans</a></h1>
         <h1 className='hover1'> <a href="#kids">Kids</a></h1>
@@ -69,7 +69,7 @@ const Header = () => {
         <h1 className='hover1'><a href="#beauty">Beauty</a></h1>
         <h1 className='hover1'><a href="#brands">Brands</a></h1>
       </div>
-      <div className='flex relative'>
+      <div className=' hidden  md:flex relative'>
           <input   className='  px-4   rounded-[10px] outline-none border-2 bg-[#d5eaeb] h-[2.4rem] text-[0.7rem] w-[14rem]' type="text" name="" id="" placeholder='Search for products and more...' />
       <FaSearch className=' text-[#969090] absolute right-2 top-3'/>
       </div>

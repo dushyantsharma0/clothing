@@ -27,7 +27,17 @@ const Inspirations  = () => {
       // install Swiper modules
       modules={[Navigation, Pagination, Scrollbar, A11y]}
       spaceBetween={50}
-      slidesPerView={4}
+      breakpoints={{
+        768: {
+          slidesPerView: 2
+        },
+        1024: {
+          slidesPerView: 3
+        },
+        1280:{
+          slidesPerView: 4
+        }
+      }}
       navigation
       
       loop
