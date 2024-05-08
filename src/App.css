@@ -1,0 +1,46 @@
+.hover1{
+  border-bottom: 5px solid transparent;
+  padding-bottom: 15px;
+  margin-top: 15px;
+  cursor: pointer;
+}
+.hover1:hover{
+  border-bottom: 5px solid rgb(216, 222, 48);
+  padding-bottom: 15px;
+  margin-top: 15px;
+}
+
+.mytext{
+    font-size: 1.7rem;
+    color: white;
+    font-weight: 700;
+    font-family: algerian;
+    margin-left: 3rem;
+}
+
+.swiper {
+    width: 80%;
+    
+  }
+.mybg1{
+    background: rgb(133,182,52);
+background: radial-gradient(circle, rgba(133,182,52,1) 35%, rgba(255,149,0,1) 100%);
+}
+.mybg2{
+    background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
+  .ff1{
+    font-family:  Georgia, Times, 'Times New Roman', serif;
+  }
+
+  
+  .hover2{
+    display: none;
+  }
+  .hover2main:hover +.hover2{
+           display: block;
+  }
+  .hover2:hover{
+    display: block;
+  }
