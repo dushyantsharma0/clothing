@@ -68,6 +68,8 @@ const Login = () => {
    <div className='w-full h-[100vh] flex justify-center items-center bg-[#e67878]'>
    {
     loader?<>
+    
+    <h1 className='mytext top-2  text-[#a6e980]  text-[10vh] absolute'> SantaBrothers CLOTHING CLUB....</h1>
     <div className=' rounded-[10px] border w-[20rem] h-max flex flex-col justify-center items-center p-10 gap-3 '>
         <h1 className='text-3xl ff1 font-[600]'>LOGIN FORM</h1>
         <input value={email} onChange={(e)=>setemail(e.target.value)} placeholder='  Enter Your Email' className=' rounded-[5px] pl-2 h-10 w-60 border outline-none' type="text" />
